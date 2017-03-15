@@ -1,0 +1,367 @@
+{
+    "RepositoryName" : "AMOSAU",
+    "ContentFolders" : [
+        "_Configurations",
+        "_Scripts",
+        "_Documentation"
+    ],
+    "ExcludeFolders" : [
+        "media",
+        ".vscode",
+        ".git"
+    ],
+    "DummyFile" : "ReadMe.md",
+    "Structure" : [
+        {
+            "Name" : "01 - Physical Infrastructure",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Compute",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "Lenovo",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                        
+                    ]
+                },
+                {
+                    "Name" : "Networking",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "Cisco",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Storage",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "IBM",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "02 - Virtual Infrastructure",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Hypervisor",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware ESX",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                        
+                    ]
+                },
+                {
+                    "Name" : "Management",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware vSphere",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Networking",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware NSX",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Storage",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware VSAN",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "03 - Cloud Management Platform",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Orchestration",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "Ansible",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        },
+                        {
+                            "Name" : "Automation Library",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        },
+                        {
+                            "Name" : "vRealize Orchestrator",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        } 
+                    ]
+                },
+                {
+                    "Name" : "Self Service Portal",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vRealize Automation",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Service Catalog",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vRealize Automation",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "04 - Operations Infrastructure",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Backups",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware Data Protection",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                        
+                    ]
+                },
+                {
+                    "Name" : "Disaster Recovery",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "VMware SRM",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Logging",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vRealize Log Insight",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Monitoring",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vRealize Operations Manager",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Replication",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vSphere Replication",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                }                                
+            ]
+        },
+        {
+            "Name" : "05 - Portfolio Management",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Application Portfolio",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                },
+                {
+                    "Name" : "Infrastructure Portfolio",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                },
+                {
+                    "Name" : "Project Portfolio",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                }
+               
+            ]
+        },
+        {
+            "Name" : "06 - Service Management",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Discovery",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "Service Now",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                        
+                    ]
+                },
+                {
+                    "Name" : "Event Management",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "Service Now",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                },
+                {
+                    "Name" : "Financial Management",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : [
+                        {
+                            "Name" : "vRealize Business",
+                            "Owner" : "ugzh",
+                            "Description" : "",
+                            "SubFolders" : []
+                        }                           
+                    ]
+                }
+            ]
+        },
+        {
+            "Name" : "07 - Security and Audit",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Compliance",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                },
+                {
+                    "Name" : "Governence",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                },
+                {
+                    "Name" : "Risk",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                }
+            ]
+        },
+        {
+            "Name" : "08 - Migration",
+            "Owner" : "ugzh",
+            "Description" : "",
+            "SubFolders" : [
+                {
+                    "Name" : "Discovery",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                },
+                {
+                    "Name" : "Migration",
+                    "Owner" : "ugzh",
+                    "Description" : "",
+                    "SubFolders" : []
+                }
+            ]
+        }
+    ]
+}
